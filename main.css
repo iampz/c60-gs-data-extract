@@ -1,0 +1,22 @@
+body {
+  font-family: Arial;
+  font-size: 14px;
+}
+p {
+  margin: 0;
+}
+
+#main {
+  height: 100%;
+}
+
+#upload-progress {
+  float: right;
+  font-weight: bold;
+  color: #900;
+}
+
+#clipboard {
+  position: absolute;
+  left: -9999px;
+}

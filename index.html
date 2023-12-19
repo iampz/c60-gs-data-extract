@@ -1,0 +1,37 @@
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8" />
+<title>Google Sheets Data Extract</title>
+<meta name="description" content="Tools for extract data from Google Sheets HTML" />
+<link href="main.css?v=0.0.1" rel="stylesheet" />
+</head>
+<body>
+
+<div id="main">
+  <div>
+    <fieldset>
+      <legend>Drag a file to upload:</legend>
+      <!--
+      <div>
+        <form id="datatype" name="datatype">
+          <input id="master" type="radio" name="type" value="master" />
+          <label for="master">Master</label>
+          <input id="data" type="radio" name="type" value="data" checked />
+          <label for="data">Data</label>
+        </form>
+      </div>
+      -->
+      <div>
+        <p id="upload-progress"></p>
+        <input id="upload" type="file" accept=".htm, .html" />
+        <input id="clipboard" type="text" value="" />
+      </div>
+    </fieldset>
+  </div>
+  <div id="output"></div>
+</div>
+
+<script src="app.js?v=0.0.1"></script>
+
+</body>
+</html>
